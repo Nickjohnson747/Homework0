@@ -62,7 +62,7 @@ One of my favorite features we didn't mention in class is the ability to add a p
 Another of my favorite is the ability to make tables/figures. Specifically the ability to make a matrix.
 
 # Hands-on
-
+I like the way that Haskell has the ability to drop a certain amount of indices from a list with a simple command versus having to use a loop. Additionally, I like that it can easily sum a large range of numbers without the pain of creating a for loop.
 
 [reference manual]: http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html  "Madoko reference manual"
 
