@@ -26,10 +26,12 @@ The above theorem can be referenced as equation [(1)][#euler-thm]. We may prove 
 
 **Theorem 1**. (*Euler's Theorem*)
 
-If *n* and *a* are positive integers and gcd(*n,a*) = 1, then
-~ Equation {#thm-euler}
+If *n* and *a* are positive integers and gcd(*n, a*) = 1, then
+~ Equation {#thm-euler; caption: "Euler's theorem"}
   a^{\phi(n)} \equiv1 \mod n
 ~
+[#euler-thm]: <#thm-euler>
+
 # Basics of Typesetting Code
 
 Below is a snippet of JavaScript code
@@ -53,6 +55,11 @@ And typing in Haskell is as easy:
     where ys = [a | a xs, a x]
     zs = [b | b xs, b > x]
 ```  
-[#euler-thm]: <#thm-euler>
+
+# More Reading
+One of my favorite features we didn't mention in class is the ability to add a photo; it seems really useful and looks really easy to do.
+Another of my favorite is the ability to make tables/figures. Specifically the ability to make a matrix.
+
+# Hands-on
 [reference manual]: http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html  "Madoko reference manual"
 
