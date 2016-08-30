@@ -28,7 +28,7 @@ The above theorem can be referenced as equation [(1)][#euler-thm]. We may prove 
 
 If *n* and *a* are positive integers and gcd(*n, a*) = 1, then
 ~ Equation {#thm-euler}
-  a^{\phi(n)} \equiv1 \mod n
+  a^{\phi(n)} \equiv 1 \mod n
 ~
 
 [#euler-thm]: <#thm-euler>
@@ -56,6 +56,7 @@ And typing in Haskell is as easy:
     where ys = [a | a xs, a x]
     zs = [b | b xs, b > x]
 ```  
+
 # Practice Save and Load
 
 # More Reading
