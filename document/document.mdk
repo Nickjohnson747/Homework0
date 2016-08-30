@@ -56,6 +56,7 @@ And typing in Haskell is as easy:
     where ys = [a | a xs, a x]
     zs = [b | b xs, b > x]
 ```  
+# Practice Save and Load
 
 # More Reading
 One of my favorite features we didn't mention in class is the ability to add a photo; it seems really useful and looks really easy to do.
