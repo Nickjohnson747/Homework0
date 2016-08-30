@@ -27,9 +27,10 @@ The above theorem can be referenced as equation [(1)][#euler-thm]. We may prove 
 **Theorem 1**. (*Euler's Theorem*)
 
 If *n* and *a* are positive integers and gcd(*n, a*) = 1, then
-~ Equation {#thm-euler; caption: "Euler's theorem"}
+~ Equation {#thm-euler}
   a^{\phi(n)} \equiv1 \mod n
 ~
+
 [#euler-thm]: <#thm-euler>
 
 # Basics of Typesetting Code
@@ -61,5 +62,7 @@ One of my favorite features we didn't mention in class is the ability to add a p
 Another of my favorite is the ability to make tables/figures. Specifically the ability to make a matrix.
 
 # Hands-on
+
+
 [reference manual]: http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html  "Madoko reference manual"
 
