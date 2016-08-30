@@ -1,0 +1,58 @@
+Title         : Homework 0
+Title Note : Due on Wednesday, September 7
+Author        : Nick Johnson
+Email : nj41@indiana.edu
+Doc class : [11pt]article 
+Logo          : True
+
+[TITLE]
+
+# Basic Text Typewriting 
+
+* Item 1 
+* Item 2 
+* Item 3 
+* Subscripting: Black~pit~; Blue^angel^
+
+These are **boldfaced words**. Newly introduced notions will be emphasized in italic font such as *group theory*. We could also add boldface to it, e.g., ***group theory***.
+
+Mathematics can be in-line like $E=mc^2$. Or, they can be elegantly presented in standalone blocks like below:
+
+~ Equation {#Euler-thm}
+  e = \lim_{n\rightarrow\infty} (1+\frac1n)^n
+~
+
+The above theorem can be referenced as equation [(1)][#euler-thm]. We may prove it as a theorem.
+
+**Theorem 1**. (*Euler's Theorem*)
+
+If *n* and *a* are positive integers and gcd(*n,a*) = 1, then
+~ Equation {#thm-euler}
+  a^{\phi(n)} \equiv1 \mod n
+~
+# Basics of Typesetting Code
+
+Below is a snippet of JavaScript code
+``` javascript
+   function hello(){
+     return "Hello World!"
+   }
+```
+Here is the Java code we mentioned in the first lecture:
+``` Java
+  int total = 0;
+  for (int i = 1; i <= 10; 1++){
+    total = total + i;
+  }
+```
+And typing in Haskell is as easy:
+``` Haskell
+  f :: [Int] -> [Int]
+  f[]        = []
+  f (x:xs) = f ys ++ [x] ++ f zs
+    where ys = [a | a xs, a x]
+    zs = [b | b xs, b > x]
+```  
+[#euler-thm]: <#thm-euler>
+[reference manual]: http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html  "Madoko reference manual"
+
