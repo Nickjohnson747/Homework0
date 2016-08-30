@@ -9,6 +9,8 @@ Logo          : True
 
 # Basic Text Typewriting 
 
+Here is a list: 
+
 * Item 1 
 * Item 2 
 * Item 3 
@@ -51,10 +53,11 @@ Here is the Java code we mentioned in the first lecture:
 And typing in Haskell is as easy:
 ``` Haskell
   f :: [Int] -> [Int]
-  f[]        = []
+  f []       = []
   f (x:xs) = f ys ++ [x] ++ f zs
-    where ys = [a | a xs, a x]
-    zs = [b | b xs, b > x]
+    where 
+      ys = [a | a xs, a x]
+      zs = [b | b xs, b > x]
 ```  
 
 # Practice Save and Load
